@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik+Burned&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: bisque;
+    background-size: cover;
+    background-repeat:no-repeat;  
+}
+.page{
+    width:100%;  
+}
+.box{
+    width:1400px;
+    height:1300px;
+    border:1px solid;
+    position: relative;
+    top: 30px;
+    left:65px;
+    background-color: white;
+}
+.box .nav h4 i{
+    position: relative;
+    bottom:130px;
+    float: right;
+    right:30px;
+
+   
+}
+.nav ul{
+    text-align:center;
+    display: flex;
+    
+}
+.nav li{
+    position:relative;
+    left: 300px;
+    margin: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size:20px;
+  
+}
+.nav h2{
+    position: relative;
+    bottom:50px;
+    margin-left:30px;
+    font-size:30px;
+}
+.nav h3{
+    position: relative;
+    bottom:80px;
+    margin-left:1000px;
+    font-size:25px;
+}
+.nav button{
+    position: relative;
+    bottom:110px;
+    margin-left:1150px;
+    margin-right: 10px;
+    width:85px;
+    background-color: black;
+    color: white;
+    font-size:20px;
+    border-radius:10px;
+}
+.cont{
+    width:1200px;
+    height:500px;
+    border: 1px solid;
+    position: relative;
+    margin-left:80px;
+    background: url(./istockphoto-1404294992-612x612.jpg);
+    border-radius:10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.cont p{
+  margin-top:50px;
+  margin-left:50px;
+}
+.cont h1{
+    margin-left:50px;
+    font-size:70px;
+}
+.cont h5{
+    margin-left:50px;
+    margin-top:50px;
+}
+.cont i{
+
+    position: relative;
+    top: 20px;
+    left: 50px;
+    font-size: 1.2em;   
+}
+.three{
+    width:900px;
+    height:100px;
+    border: 2px solid;
+    position: relative;
+    left:200px;
+    bottom: 30px;
+    background-color: white;
+    display: flex;
+    border-radius:10px;
+}
+.box1 h2{
+    position: relative;
+    top:20px;
+    margin-left:100px;
+
+}
+.box1 p{
+    position: relative;
+    top:20px;
+    margin-left:100px;
+}
+.box2 h2{
+    position: relative;
+    top:20px;
+    margin-left:100px;
+  
+}
+.box2 p{
+    position: relative;
+    top:20px;
+    margin-left:100px;
+}
+.box3 h2{
+    position: relative;
+    top:20px;
+    margin-left:100px;
+    
+}
+.box3 p{
+    position: relative;
+    top:20px;
+    margin-left:100px;
+}
+.search{
+    width:50px;
+    height: 50px;
+    background-color: black;
+    border: 2px solid;
+    margin-left: 300px;
+ position: relative;
+ bottom:30px;
+ border-radius: 15px;
+}
+.search i{
+    color: white;
+    position: relative;
+    top:15px;
+    left:15px;
+}
+.left{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    border: 2px solid;
+    color: black;
+    position: relative;
+    left:1200px;
+    bottom:40px;
+    margin-left: 10px;
+}
+.right{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    border: 2px solid;
+    color: black;
+    position: relative;
+    left:1200px;
+    bottom:70px;
+    margin-left: 50px;
+    background-color: black;
+}
+.left i{
+    position: relative;
+    left:6px;
+    top: 5px;
+}
+.right i{
+    position: relative;
+    left:6px;
+    top: 5px;
+    color: white;
+}
+.part1{
+    display: flex;
+}
+.photo1{
+    margin-left:60px;
+   
+}
+.photo1 h1{
+    position: relative;
+    top:40px;
+}
+.photo2{
+    margin-left: 60px;
+      
+}
+.photo2 h1{
+    position: relative;
+    top:40px;
+
+}
+.photo3{
+   margin-left: 60px;
+    
+}
+.photo3 h1{
+    position: relative;
+    top:40px;
+}
+.photo4{
+    margin-left: 60px;  
+
+}
+.photo4 h1{
+    position: relative;
+    top:40px;
+}
+@media all and (max-width:480px){
+    .cont{
+        width: 300px;
+    }
+   
+     .box{
+        width:300px;
+        text-align: center;
+        height: 2000px;
+        position: relative;
+        
+
+     }
+     .page{
+        overflow: hidden;
+        position: relative;
+        right:27px;
+     }
+   
+     .box .nav h2{
+        position:absolute;
+       top: 0;
+       font-size: 2em;
+     }
+     .box .nav h4 i{
+        position: relative;
+        float: right;
+    
+       
+    }
+    .box .nav{
+        visibility: hidden;
+    }
+    
+
+     .box h1{
+        font-size:2em;
+       
+     }
+     .box .nav h2,h4{
+        visibility: visible;
+
+     }
+     
+   
+     .box .cont{
+        width:280px;
+        height:500px;
+        position: relative;
+        right:70px;
+        bottom: 70px;
+     }
+     .box .cont p{
+        position: relative;
+        right: 20px;
+        font: 1em;
+     }
+     .box .cont h1{
+        position: relative;
+        font-size:4em;
+        right: 35px;
+
+     }
+     .box .cont h5{
+        position: relative;
+        margin-right:60px;
+     }
+     .box .cont i{
+        position: relative;
+        margin-right:100px;
+    
+     }
+     .three{
+        display: none;
+     }
+
+     .photo1{
+        position: relative;
+        right:60px;
+        bottom: 50px;
+     }
+    .photo2{
+        position: relative;
+        right: 418px;
+        top:300px;
+    }
+    .photo3{
+        position: relative;
+        right:780px;
+        top:600px;
+    }
+    .photo4{
+        position: relative;
+        right:1130px;
+        top: 900px;
+       
+    }
+    .service .left , .right{
+        visibility: hidden;
+    }
+    .three{
+        width: 300px;
+    }
+
+    
+    
+        
+
+    }
+    
+
+
+
+
+
+
+
